@@ -1,6 +1,7 @@
 
 const tl = gsap.timeline({defaults: {duration: 0.1}})
 const t2 = gsap.timeline({defaults: {duration: 0.1}})
+const t3 = gsap.timeline({defaults: {duration: 0.5}})
 
 
 
@@ -59,13 +60,17 @@ for(var i=0; i<children.length; i++){
 tl.fromTo('#piano-outline', {opacity:0}, { opacity: 1, duration: 2})
 tl.to('.welcome', {y: '-1000px'})
 
+// setInterval(() => {
+//     t2.to('body', {backgroundColor: '#030303', ease: "bounce", duration: 1.5})
+//     t2.to('body', {backgroundColor: '#a80c2e', ease: "bounce", duration: 1.5})
+//     t2.to('body', {backgroundColor: '#ff577e', ease: "bounce", duration: 1.5})
+// }, 1000);
+
 setInterval(() => {
     t2.to('body', {backgroundColor: '#030303', ease: "bounce", duration: 1.5})
     t2.to('body', {backgroundColor: '#a80c2e', ease: "bounce", duration: 1.5})
     t2.to('body', {backgroundColor: '#ff577e', ease: "bounce", duration: 1.5})
 }, 1000);
-
-
 
 // var imageChild = []
 
