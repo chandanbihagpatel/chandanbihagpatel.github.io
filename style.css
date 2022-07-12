@@ -144,11 +144,13 @@ p{
             border: 2px solid white;
             height: fit-content;
             width: auto;
+            transform: translate(-2vh,0);
         }
         #name-description{
             border: 2px solid white;
             height: fit-content;
             width:auto;
+            transform: translate(-2vh,0);
         }
         .welcome{
             height: 100vh;
