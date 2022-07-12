@@ -143,12 +143,12 @@ p{
         #technical-description{
             border: 2px solid white;
             height: fit-content;
-            width: fit-content;
+            width: auto;
         }
         #name-description{
             border: 2px solid white;
             height: fit-content;
-            width: fit-content;
+            width:auto;
         }
         .welcome{
             height: 100vh;
