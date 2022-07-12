@@ -141,12 +141,10 @@ p{
         }
         #technical-description{
             border: 2px solid white;
-            width: fit-content;
             height: fit-content;
         }
         #name-description{
             border: 2px solid white;
-            width: fit-content;
             height: fit-content;
         }
         .welcome{
