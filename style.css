@@ -123,7 +123,7 @@ p{
             transform: translate(0, -150vh);
             background-color: black;
             display: grid;
-            grid-gap: 15%;
+            grid-gap: 10%;
             transform: translate(0, -184vh);
             height: 80%;
             width: fit-content;
