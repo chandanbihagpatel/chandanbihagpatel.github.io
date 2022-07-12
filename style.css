@@ -108,7 +108,7 @@ p{
     and (max-width : 375px) 
     and (max-height : 667px) { 
         h1{
-            font-size: 20px;
+            font-size: 10px;
             color: white;
         }
         h2{
